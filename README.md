@@ -58,11 +58,3 @@ The program generates 'n' tweets, each with a maximum length of 20 words.
 
 ---
 
-## Project: linked_list
-
-The `linked_list` project consists of two main files:
-
-### `linked_list.c`
-
-```c
-// ... (contents of linked_list.c)
