@@ -1,13 +1,10 @@
 <div align="center">
-  <h1 align="center" style="border-bottom: none"><b>Exercise 3 A</b> - Natural Language Processing</h1>
+  <h1 align="center" style="border-bottom: none"><b>Tweets Generator</b> - Natural Language Processing</h1>
 
   <p align="center">
-    <b>Natural Language Processing</b> is the 3rd (Part A) exercise I've solved in Huji's <b>Programming Workshop in C & C++</b> course.
+    <b>
     <br>
-    The main idea behind this exercise is to get familiar with <b>Markov Chains</b>, <b>Dynamic Arrays</b> and <b>Memory Management</b>.
-    <br>
-    <br>
-    <a href="https://github.com/OmerFerster/Workshop-in-C-CPP"><strong>« Home Page</strong></a>
+    The main idea behind this project is to get familiar with <b>Markov Chains</b>, <b>Dynamic Arrays</b> and <b>Memory Management</b>.
     <br>
   </p>
 </div>
