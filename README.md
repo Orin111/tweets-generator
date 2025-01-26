@@ -1,60 +1,44 @@
-<div align="center">
-  <h1 align="center" style="border-bottom: none"><b>Tweets Generator</b> - Natural Language Processing</h1>
+# Tweets Generator
 
-  <p align="center">
-    <b>
-    <br>
-    The main idea behind this project is to get familiar with <b>Markov Chains</b>, <b>Dynamic Arrays</b> and <b>Memory Management</b>.
-    <br>
-  </p>
-</div>
+**Generate random tweets using Markov Chains.**
 
-<br>
+## 💀 Description
+Tweets Generator is a program that uses Markov Chains to generate realistic tweets based on input text. The system learns from sample texts and creates new tweets by predicting the most probable next words.
 
-## Table of Contents
+## 🔧 Installation
+To compile and run the program, use the following commands:
+```bash
+g++ -o tweet_generator tweet_generator.cpp
+./tweet_generator input.txt
+```
 
-- [Usage](#usage)
-- [Media](#media)
-- [Contributing](#contributing)
-- [License](#license)
+## 🚀 Technologies Used
+- **C++** (Core implementation)
+- **Markov Chains** (Statistical text prediction)
 
-## Usage
+## 📝 Features
+- Learns from input text files.
+- Generates realistic, probabilistic tweets.
+- Supports multiple iterations for refining text output.
 
-To run the project on your personal machine, follow these steps:
+## 🌟 Future Improvements
+- Adding support for **N-gram models** to improve sentence coherence.
+- Integration with **Twitter API** to generate real-time tweets.
+- GUI interface for easy interaction.
 
-1. Clone this repository using: `git clone <url>`
-2. Open the cloned project in your preferred IDE.
-3. Use a C/C++ compiler like GCC to compile all relevant files into an executable.
-4. Run the created executable file.
+## 💍 License
+This project is licensed under the **MIT License**.
 
-## Media
-
-![image](./media/1.png)
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
-
----
-
-## Project Description
-
-This project generates tweets using Markov chains. The program accepts several parameters:
-
-- Seed value
-- Number of tweets to generate (n)
-- Path to the corpus file (a file that contains sentences/tweets)
-- Number of words to read from the file (optional; if not provided, the entire file is read)
-
-The program generates 'n' tweets, each with a maximum length of 20 words.
 
 ## Run Example
 
 ![image](https://github.com/lioraVes/Programming-Workshop-C-CPP/assets/135438143/f09b2d8f-0e0d-41db-8028-447b533dab7f)
+
+---
+🚀 *Feel free to contribute and enhance the project!* 💬
+
+
+
 
 ---
 
